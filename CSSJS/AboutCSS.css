@@ -1,0 +1,18 @@
+html,body{
+  overflow: visible;
+}
+#title{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+#info{
+  font-family: 'BenchNine', sans-serif;
+  font-size: 25px;
+}
+
+#info a{
+  color: yellow;
+}
+#info a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,136 @@
+html,body{
+	overflow: visible;
+	scroll-behavior: smooth;
+}
+
+.tempbck{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background-image: url("../photos/Experiente/test.jpg");
+	background-size: cover;
+  	background-attachment: fixed;
+}
+
+
+#box{
+	position: relative;
+	display: inline-block;
+	margin-left: 0.5cm;
+	margin-top: 1cm;
+	height: 200px;
+	width: 14%;
+}
+
+#box h2{
+	position: absolute;
+	font-size: 15px;
+	text-align: center;
+	top: 5cm;
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+	opacity: 0;
+	transition: 2s;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	-moz-transition: 2s;
+}
+#avatar:hover ~h2{
+	opacity: 1;
+}
+
+.description h2{
+	position: absolute;
+	top: 7cm;
+	left: 1.5cm;
+	height: 4cm;
+	width: 40%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
+#avatar{
+	position: absolute;
+	border: 5px solid grey;
+	background: grey;
+	border-radius: 10px;
+	height: 70px;
+	width: 70px;
+	margin: 30%;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition: 1s;
+}
+#avatar img{
+	border-radius: 10px;
+}
+
+#avatar:hover{
+	transform: scale(2.3);
+}
+
+
+.infobox{
+	height: 100%;
+	width: 30%;
+}
+.infobox img{
+	position: absolute;
+	margin-left: 7.8cm;
+	margin-top: 0.2cm;
+	opacity: 1;
+	height: 100px;
+	width: 100px;
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+.infobox div{
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	z-index: -1;
+	opacity: 0.6;
+}
+.infobox h1{
+	position: absolute;
+	margin-top: 1cm;
+	margin-right: 2cm;
+	margin-left: 0.7cm;
+	width: 25%;
+	font-family: 'Raleway', sans-serif;
+}
+.infobox h2{
+	position: absolute;
+	margin-top: 2.3cm;
+	margin-right: 2cm;
+	margin-left: 0.7cm;
+	font-size: 18px;
+	width: 20%;
+	font-family: 'Rajdhani', sans-serif;
+}
+.infobox p{
+	position: absolute;
+	margin-top: 5cm;
+	margin-right: 2cm;
+	margin-left: 0.7cm;
+	width: 25%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+#buttons{
+	position: sticky;
+	bottom: 10%;
+	margin-left: 85%;
+	height: 4cm;
+	width: 2.5cm;
+	z-index: 2;
+}
+
+#buttons a img{
+	opacity: 0.6;
+}
+
+#buttons a img:hover{
+	opacity: 1;
+}

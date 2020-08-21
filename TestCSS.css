@@ -1,0 +1,33 @@
+#slider{
+	position: absolute;
+	margin-left: 2cm;
+	border: 2px solid black;
+	height: 300px;
+	width: 1200px;
+}
+
+#box{
+	position: relative;
+	display: inline-block;
+	margin-left: 0.5cm;
+	margin-top: 1cm;
+	height: 200px;
+	width: 200px;
+	border: 5px solid brown;
+}
+
+#avatar{
+	position: absolute;
+	border: 2px solid blue;
+	height: 70px;
+	width: 70px;
+	margin: 30%;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition: 1s;
+}
+
+#avatar:hover{
+	transform: scale(1.8);
+}
